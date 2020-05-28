@@ -1,0 +1,76 @@
+Detector selected: <xfeatures2d_SURF 0x7f66aec830>
+
+Descriptor selected: <xfeatures2d_FREAK 0x7f66aec790>
+
+Training-set path: Datasets/FEI/Dataset/Train/
+
+Test-set path: Datasets/FEI/Dataset/Test/
+
+Number of Classes: 2
+
+Extract Features
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+Extracted FREAK 
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+Extracted FREAK 
+
+Time: 00:00:01 
+
+Create Bag of Visual Features
+
+Training FREAK K-Means
+
+Time: 00:00:00 
+
+FREAK Training Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:00 
+
+FREAK Testing Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:00 
+
+Training FREAK SVM Models
+
+FREAK SVM
+
+Training Set Evaluation
+
+Train score: 0.50
+
+Testing FREAK SVM Model
+
+FREAK SVM
+
+Testing Set Evaluation
+
+Test score: 0.53
+
+Classification Report
+
+FREAK SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+      happy       0.53      1.00      0.69        59
+    neutral       0.00      0.00      0.00        53
+
+avg / total       0.28      0.53      0.36       112
+
