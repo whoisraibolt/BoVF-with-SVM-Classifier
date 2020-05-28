@@ -1,0 +1,140 @@
+Detector selected: <ORB 0x7f760af830>
+
+Descriptor selected: <ORB 0x7f760af790>
+
+Training-set path: Datasets/MNIST/Dataset/Train/
+
+Test-set path: Datasets/MNIST/Dataset/Test/
+
+Number of Classes: 10
+
+Extract Features
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+Extracted ORB 
+
+Time: 00:00:32 
+
+Create Bag of Visual Features
+
+Training ORB K-Means
+
+Time: 00:02:52 
+
+ORB Training Data
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+
+Time: 00:01:03 
+
+ORB Testing Data
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+
+Time: 00:00:19 
+
+Training ORB SVM Models
+
+ORB SVM
+
+Training Set Evaluation
+
+Train score: 0.26
+
+Testing ORB SVM Model
+
+ORB SVM
+
+Testing Set Evaluation
+
+Test score: 0.26
+
+Classification Report
+
+ORB SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+          0       0.73      0.57      0.64       980
+          1       0.39      0.95      0.55      1134
+          2       0.27      0.01      0.02      1032
+          3       0.14      0.91      0.25      1010
+          4       0.00      0.00      0.00       982
+          5       0.00      0.00      0.00       892
+          6       0.00      0.00      0.00       958
+          7       0.12      0.00      0.01      1028
+          8       0.00      0.00      0.00       974
+          9       0.00      0.00      0.00      1009
+
+avg / total       0.17      0.26      0.15      9999
+
