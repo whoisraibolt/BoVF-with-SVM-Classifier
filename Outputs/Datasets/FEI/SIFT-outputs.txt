@@ -1,0 +1,76 @@
+Detector selected: <xfeatures2d_SIFT 0x7f5d67ea10>
+
+Descriptor selected: <xfeatures2d_SIFT 0x7f5d67e970>
+
+Training-set path: Datasets/FEI/Dataset/Train/
+
+Test-set path: Datasets/FEI/Dataset/Test/
+
+Number of Classes: 2
+
+Extract Features
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+Extracted SIFT 
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+Extracted SIFT 
+
+Time: 00:00:07 
+
+Create Bag of Visual Features
+
+Training SIFT K-Means
+
+Time: 00:00:01 
+
+SIFT Training Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:00 
+
+SIFT Testing Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:03 
+
+Training SIFT SVM Models
+
+SIFT SVM
+
+Training Set Evaluation
+
+Train score: 1.00
+
+Testing SIFT SVM Model
+
+SIFT SVM
+
+Testing Set Evaluation
+
+Test score: 0.54
+
+Classification Report
+
+SIFT SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+      happy       0.52      1.00      0.69        60
+    neutral       1.00      0.08      0.15        60
+
+avg / total       0.76      0.54      0.42       120
+
