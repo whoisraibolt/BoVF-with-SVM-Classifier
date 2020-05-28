@@ -1,0 +1,140 @@
+Detector selected: <ORB 0x7f54ad2830>
+
+Descriptor selected: <ORB 0x7f54ad2790>
+
+Training-set path: Datasets/CIFAR-10/Dataset/Train/
+
+Test-set path: Datasets/CIFAR-10/Dataset/Test/
+
+Number of Classes: 10
+
+Extract Features
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+Extracted ORB 
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+Extracted ORB 
+
+Time: 00:01:01 
+
+Create Bag of Visual Features
+
+Training ORB K-Means
+
+Time: 00:05:46 
+
+ORB Training Data
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+
+Time: 00:00:56 
+
+ORB Testing Data
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+
+Time: 00:00:23 
+
+Training ORB SVM Models
+
+ORB SVM
+
+Training Set Evaluation
+
+Train score: 0.19
+
+Testing ORB SVM Model
+
+ORB SVM
+
+Testing Set Evaluation
+
+Test score: 0.19
+
+Classification Report
+
+ORB SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+   airplane       0.27      0.39      0.32      1000
+ automobile       0.16      0.12      0.14      1000
+       bird       0.21      0.09      0.13      1000
+        cat       0.00      0.00      0.00      1000
+       deer       0.16      0.04      0.07      1000
+        dog       0.16      0.16      0.16      1000
+       frog       0.19      0.53      0.28      1000
+      horse       0.13      0.04      0.06      1000
+       ship       0.00      0.00      0.00      1000
+      truck       0.17      0.51      0.26      1000
+
+avg / total       0.14      0.19      0.14     10000
+
