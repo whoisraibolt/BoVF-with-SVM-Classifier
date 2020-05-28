@@ -1,0 +1,140 @@
+Detector selected: <xfeatures2d_SURF 0x7f7f1b8830>
+
+Descriptor selected: <xfeatures2d_SURF 0x7f7f1b8790>
+
+Training-set path: Datasets/MNIST/Dataset/Train/
+
+Test-set path: Datasets/MNIST/Dataset/Test/
+
+Number of Classes: 10
+
+Extract Features
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+Extracted SURF 
+
+Time: 00:00:18 
+
+Create Bag of Visual Features
+
+Training SURF K-Means
+
+Time: 00:00:02 
+
+SURF Training Data
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+
+Time: 00:00:12 
+
+SURF Testing Data
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+
+Time: 00:00:05 
+
+Training SURF SVM Models
+
+SURF SVM
+
+Training Set Evaluation
+
+Train score: 0.29
+
+Testing SURF SVM Model
+
+SURF SVM
+
+Testing Set Evaluation
+
+Test score: 0.31
+
+Classification Report
+
+SURF SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+          0       0.31      1.00      0.47       683
+          1       0.00      0.00      0.00       264
+          2       0.00      0.00      0.00       247
+          3       0.00      0.00      0.00       136
+          4       0.00      0.00      0.00       141
+          5       0.00      0.00      0.00        98
+          6       0.00      0.00      0.00       130
+          7       0.00      0.00      0.00       342
+          8       0.00      0.00      0.00        74
+          9       0.00      0.00      0.00       121
+
+avg / total       0.09      0.31      0.14      2236
+
