@@ -1,0 +1,116 @@
+Detector selected: <ORB 0x7f49a0e830>
+
+Descriptor selected: <ORB 0x7f49a0e790>
+
+Training-set path: Datasets/FER-2013/Dataset/Train/
+
+Test-set path: Datasets/FER-2013/Dataset/Test/
+
+Number of Classes: 7
+
+Extract Features
+
+Processing the subdirectory named: angry 	[ 1 / 7 ]
+Extracted ORB 
+
+Processing the subdirectory named: disgust 	[ 2 / 7 ]
+Extracted ORB 
+
+Processing the subdirectory named: fear 	[ 3 / 7 ]
+Extracted ORB 
+
+Processing the subdirectory named: happy 	[ 4 / 7 ]
+Extracted ORB 
+
+Processing the subdirectory named: neutral 	[ 5 / 7 ]
+Extracted ORB 
+
+Processing the subdirectory named: sad 	[ 6 / 7 ]
+Extracted ORB 
+
+Processing the subdirectory named: surprise 	[ 7 / 7 ]
+Extracted ORB 
+
+Time: 00:00:40 
+
+Create Bag of Visual Features
+
+Training ORB K-Means
+
+Time: 00:04:38 
+
+ORB Training Data
+
+Processing the subdirectory named: angry 	[ 1 / 7 ]
+
+Processing the subdirectory named: disgust 	[ 2 / 7 ]
+
+Processing the subdirectory named: fear 	[ 3 / 7 ]
+
+Processing the subdirectory named: happy 	[ 4 / 7 ]
+
+Processing the subdirectory named: neutral 	[ 5 / 7 ]
+
+Processing the subdirectory named: sad 	[ 6 / 7 ]
+
+Processing the subdirectory named: surprise 	[ 7 / 7 ]
+
+Time: 00:00:33 
+
+ORB Testing Data
+
+Processing the subdirectory named: angry 	[ 1 / 7 ]
+
+Processing the subdirectory named: disgust 	[ 2 / 7 ]
+
+Processing the subdirectory named: fear 	[ 3 / 7 ]
+
+Processing the subdirectory named: happy 	[ 4 / 7 ]
+
+Processing the subdirectory named: neutral 	[ 5 / 7 ]
+
+Processing the subdirectory named: sad 	[ 6 / 7 ]
+
+Processing the subdirectory named: surprise 	[ 7 / 7 ]
+
+Time: 00:00:09 
+
+Training ORB SVM Models
+
+ORB SVM
+
+Training Set Evaluation
+
+Train score: 0.25
+
+Testing ORB SVM Model
+
+ORB SVM
+
+Testing Set Evaluation
+
+Test score: 0.25
+
+Classification Report
+
+ORB SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+      angry       0.00      0.00      0.00       466
+    disgust       0.00      0.00      0.00        56
+       fear       0.00      0.00      0.00       496
+      happy       0.25      1.00      0.40       895
+    neutral       0.00      0.00      0.00       607
+        sad       0.00      0.00      0.00       653
+   surprise       0.00      0.00      0.00       415
+
+avg / total       0.06      0.25      0.10      3588
+
