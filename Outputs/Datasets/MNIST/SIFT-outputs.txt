@@ -1,0 +1,140 @@
+Detector selected: <xfeatures2d_SIFT 0x7f63ed6830>
+
+Descriptor selected: <xfeatures2d_SIFT 0x7f63ed6790>
+
+Training-set path: Datasets/MNIST/Dataset/Train/
+
+Test-set path: Datasets/MNIST/Dataset/Test/
+
+Number of Classes: 10
+
+Extract Features
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+Extracted SIFT 
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+Extracted SIFT 
+
+Time: 00:02:38 
+
+Create Bag of Visual Features
+
+Training SIFT K-Means
+
+Time: 00:02:23 
+
+SIFT Training Data
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+
+Time: 00:01:04 
+
+SIFT Testing Data
+
+Processing the subdirectory named: 0 	[ 1 / 10 ]
+
+Processing the subdirectory named: 1 	[ 2 / 10 ]
+
+Processing the subdirectory named: 2 	[ 3 / 10 ]
+
+Processing the subdirectory named: 3 	[ 4 / 10 ]
+
+Processing the subdirectory named: 4 	[ 5 / 10 ]
+
+Processing the subdirectory named: 5 	[ 6 / 10 ]
+
+Processing the subdirectory named: 6 	[ 7 / 10 ]
+
+Processing the subdirectory named: 7 	[ 8 / 10 ]
+
+Processing the subdirectory named: 8 	[ 9 / 10 ]
+
+Processing the subdirectory named: 9 	[ 10 / 10 ]
+
+Time: 00:00:35 
+
+Training SIFT SVM Models
+
+SIFT SVM
+
+Training Set Evaluation
+
+Train score: 0.12
+
+Testing SIFT SVM Model
+
+SIFT SVM
+
+Testing Set Evaluation
+
+Test score: 0.11
+
+Classification Report
+
+SIFT SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+          0       0.98      0.06      0.12       974
+          1       0.00      0.00      0.00       997
+          2       0.00      0.00      0.00      1020
+          3       0.19      0.05      0.08      1007
+          4       0.00      0.00      0.00       975
+          5       0.00      0.00      0.00       885
+          6       0.00      0.00      0.00       950
+          7       0.11      1.00      0.19      1005
+          8       0.00      0.00      0.00       974
+          9       0.00      0.00      0.00      1005
+
+avg / total       0.13      0.11      0.04      9792
+
