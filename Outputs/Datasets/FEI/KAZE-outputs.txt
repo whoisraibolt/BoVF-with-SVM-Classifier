@@ -1,0 +1,76 @@
+Detector selected: <xfeatures2d_SIFT 0x7f6015e850>
+
+Descriptor selected: <xfeatures2d_SIFT 0x7f6015e7b0>
+
+Training-set path: Datasets/FEI/Dataset/Train/
+
+Test-set path: Datasets/FEI/Dataset/Test/
+
+Number of Classes: 2
+
+Extract Features
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+Extracted KAZE 
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+Extracted KAZE 
+
+Time: 00:00:07 
+
+Create Bag of Visual Features
+
+Training KAZE K-Means
+
+Time: 00:00:01 
+
+KAZE Training Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:00 
+
+KAZE Testing Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:03 
+
+Training KAZE SVM Models
+
+KAZE SVM
+
+Training Set Evaluation
+
+Train score: 1.00
+
+Testing KAZE SVM Model
+
+KAZE SVM
+
+Testing Set Evaluation
+
+Test score: 0.61
+
+Classification Report
+
+KAZE SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+      happy       0.56      0.98      0.72        60
+    neutral       0.93      0.23      0.37        60
+
+avg / total       0.75      0.61      0.54       120
+
