@@ -1,0 +1,76 @@
+Detector selected: <xfeatures2d_SURF 0x7f777b4a10>
+
+Descriptor selected: <xfeatures2d_SURF 0x7f777b4970>
+
+Training-set path: Datasets/FEI/Dataset/Train/
+
+Test-set path: Datasets/FEI/Dataset/Test/
+
+Number of Classes: 2
+
+Extract Features
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+Extracted SURF 
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+Extracted SURF 
+
+Time: 00:00:02 
+
+Create Bag of Visual Features
+
+Training SURF K-Means
+
+Time: 00:00:00 
+
+SURF Training Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:00 
+
+SURF Testing Data
+
+Processing the subdirectory named: happy 	[ 1 / 2 ]
+
+Processing the subdirectory named: neutral 	[ 2 / 2 ]
+
+Time: 00:00:01 
+
+Training SURF SVM Models
+
+SURF SVM
+
+Training Set Evaluation
+
+Train score: 0.99
+
+Testing SURF SVM Model
+
+SURF SVM
+
+Testing Set Evaluation
+
+Test score: 0.69
+
+Classification Report
+
+SURF SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+      happy       0.63      0.93      0.75        60
+    neutral       0.87      0.45      0.59        60
+
+avg / total       0.75      0.69      0.67       120
+
