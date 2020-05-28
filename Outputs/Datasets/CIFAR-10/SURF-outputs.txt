@@ -1,0 +1,140 @@
+Detector selected: <xfeatures2d_SURF 0x7f639be830>
+
+Descriptor selected: <xfeatures2d_SURF 0x7f639be790>
+
+Training-set path: Datasets/CIFAR-10/Dataset/Train/
+
+Test-set path: Datasets/CIFAR-10/Dataset/Test/
+
+Number of Classes: 10
+
+Extract Features
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+Extracted SURF 
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+Extracted SURF 
+
+Time: 00:00:48 
+
+Create Bag of Visual Features
+
+Training SURF K-Means
+
+Time: 00:00:04 
+
+SURF Training Data
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+
+Time: 00:00:21 
+
+SURF Testing Data
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+
+Time: 00:00:13 
+
+Training SURF SVM Models
+
+SURF SVM
+
+Training Set Evaluation
+
+Train score: 0.11
+
+Testing SURF SVM Model
+
+SURF SVM
+
+Testing Set Evaluation
+
+Test score: 0.11
+
+Classification Report
+
+SURF SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+   airplane       0.00      0.00      0.00       450
+ automobile       0.00      0.00      0.00       419
+       bird       0.00      0.00      0.00       439
+        cat       0.00      0.00      0.00       383
+       deer       0.00      0.00      0.00       392
+        dog       0.00      0.00      0.00       380
+       frog       0.00      0.00      0.00       387
+      horse       0.11      1.00      0.20       474
+       ship       0.00      0.00      0.00       393
+      truck       0.00      0.00      0.00       459
+
+avg / total       0.01      0.11      0.02      4176
+
