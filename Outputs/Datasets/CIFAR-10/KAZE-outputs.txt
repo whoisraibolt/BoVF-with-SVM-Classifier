@@ -1,0 +1,140 @@
+Detector selected: <xfeatures2d_SIFT 0x7f53ab1830>
+
+Descriptor selected: <xfeatures2d_SIFT 0x7f53ab1790>
+
+Training-set path: Datasets/CIFAR-10/Dataset/Train/
+
+Test-set path: Datasets/CIFAR-10/Dataset/Test/
+
+Number of Classes: 10
+
+Extract Features
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+Extracted KAZE 
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+Extracted KAZE 
+
+Time: 00:02:35 
+
+Create Bag of Visual Features
+
+Training KAZE K-Means
+
+Time: 00:04:17 
+
+KAZE Training Data
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+
+Time: 00:00:57 
+
+KAZE Testing Data
+
+Processing the subdirectory named: airplane 	[ 1 / 10 ]
+
+Processing the subdirectory named: automobile 	[ 2 / 10 ]
+
+Processing the subdirectory named: bird 	[ 3 / 10 ]
+
+Processing the subdirectory named: cat 	[ 4 / 10 ]
+
+Processing the subdirectory named: deer 	[ 5 / 10 ]
+
+Processing the subdirectory named: dog 	[ 6 / 10 ]
+
+Processing the subdirectory named: frog 	[ 7 / 10 ]
+
+Processing the subdirectory named: horse 	[ 8 / 10 ]
+
+Processing the subdirectory named: ship 	[ 9 / 10 ]
+
+Processing the subdirectory named: truck 	[ 10 / 10 ]
+
+Time: 00:00:43 
+
+Training KAZE SVM Models
+
+KAZE SVM
+
+Training Set Evaluation
+
+Train score: 0.18
+
+Testing KAZE SVM Model
+
+KAZE SVM
+
+Testing Set Evaluation
+
+Test score: 0.17
+
+Classification Report
+
+KAZE SVM
+
+Classification report for Classifier: 
+
+SVC(C=0.001, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False): 
+
+              precision    recall  f1-score   support
+
+   airplane       0.00      0.00      0.00       993
+ automobile       0.15      0.36      0.21      1000
+       bird       0.00      0.00      0.00       997
+        cat       0.00      0.00      0.00       999
+       deer       0.00      0.00      0.00       999
+        dog       0.15      0.61      0.24      1000
+       frog       0.00      0.00      0.00      1000
+      horse       0.19      0.34      0.24      1000
+       ship       0.00      0.00      0.00       998
+      truck       0.23      0.38      0.28      1000
+
+avg / total       0.07      0.17      0.10      9986
+
