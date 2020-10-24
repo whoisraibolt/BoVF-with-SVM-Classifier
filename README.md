@@ -6,7 +6,6 @@
 ## Overview
 
 Comparative evaluation of Local Feature Descriptors such as SIFT, SURF, and KAZE, and Local Binary Descriptors such as BRIEF, ORB, BRISK, AKAZE, and FREAK through Bag of Visual Features (BoVF) approach with Support Vector Machine (SVM) classifier for the tasks of recognition and classification on six visual datasets (MNIST, JAFFE, Extended CK+, FEI, CIFAR-10, and FER-2013) on an embedded GPU system: The NVIDIA's Jetson Nano.
--->
 
 **Notice:**
 
