@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Comparative Evaluation of Feature Descriptors Through Bag of Visual Features with Support Vector Machine on Embedded GPU System"
+abstract: "Comparative evaluation of local feature descriptors and local binary descriptors through Bag of Visual Features with a Support Vector Machine classifier on an embedded GPU system."
+authors:
+  - family-names: Raibolt
+    given-names: Alexandra
+    orcid: "https://orcid.org/0000-0002-8982-596X"
+  - family-names: Angonese
+    given-names: Alberto Torres
+  - family-names: Rosa
+    given-names: Paulo Fernando Ferreira
+repository-code: "https://github.com/whoisraibolt/BoVF-with-SVM-Classifier"
+license: MIT
+version: v1.0.0
+date-released: "2026-08-17"
+keywords:
+  - computer-vision
+  - bag-of-visual-features
+  - feature-descriptors
+  - embedded-systems
+  - nvidia-jetson-nano
+  - opencv
+  - python
+  - support-vector-machine
+  - svm-classifier
+
