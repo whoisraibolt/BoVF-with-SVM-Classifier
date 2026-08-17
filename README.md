@@ -1,5 +1,7 @@
 # Comparative Evaluation of Feature Descriptors Through Bag of Visual Features with Support Vector Machine on Embedded GPU System
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21983241-1682D4)](https://doi.org/10.5281/zenodo.21983241)
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/whoisraibolt/BoVF-with-SVM-Classifier)
 ![GitHub](https://img.shields.io/github/license/whoisraibolt/BoVF-with-SVM-Classifier)
 
